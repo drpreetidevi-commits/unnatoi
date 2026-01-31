@@ -1,0 +1,53 @@
+:root {
+  /* 🌌 Background Palette (Midnight / Deep Space) */
+  --color-bg-app: #0f172a;       /* Slate 900 */
+  --color-bg-deep: #020617;      /* Slate 950 */
+  --color-bg-overlay: rgba(15, 23, 42, 0.85);
+
+  /* 🔮 Primary Brand Colors (Mystic Purple / Violet) */
+  --color-primary-300: #c4b5fd;
+  --color-primary-400: #a78bfa;
+  --color-primary-500: #8b5cf6;  /* Main Brand Color */
+  --color-primary-600: #7c3aed;
+  --color-primary-700: #6d28d9;
+
+  /* ✨ Accent Colors (Cyan / Neon Glow) */
+  --color-accent-400: #22d3ee;
+  --color-accent-500: #06b6d4;   /* Main Accent */
+  --color-accent-600: #0891b2;
+  --color-accent-glow: rgba(6, 182, 212, 0.5);
+
+  /* 📜 Text Colors */
+  --color-text-primary: #f8fafc; /* Slate 50 */
+  --color-text-secondary: #cbd5e1; /* Slate 300 */
+  --color-text-tertiary: #94a3b8; /* Slate 400 */
+  --color-text-disabled: #64748b; /* Slate 500 */
+
+  /* 🚦 Status Colors */
+  --color-success: #10b981;      /* Emerald 500 */
+  --color-warning: #f59e0b;      /* Amber 500 */
+  --color-error: #ef4444;        /* Red 500 */
+
+  /* 🌈 Gradients */
+  --gradient-cosmic: linear-gradient(135deg, #1e1b4b 0%, #4c1d95 50%, #0f172a 100%);
+  --gradient-card-border: linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0.05));
+  --gradient-text-gold: linear-gradient(to right, #fcd34d, #f59e0b);
+  --gradient-overlay-fade: linear-gradient(to bottom, transparent, #0f172a);
+
+  /* 📐 Spacing & Layout */
+  --header-height: 60px;
+  --bottom-nav-height: 70px;
+  --safe-bottom: env(safe-area-inset-bottom, 20px);
+
+  /* 🔘 Border Radius (Soft/Rounded per requirements) */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 32px;
+  --radius-full: 9999px;
+
+  /* 🔦 Shadows & Glows */
+  --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-card: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+  --shadow-glow-primary: 0 0 15px rgba(139, 92, 246, 0.3);
+  --shadow-glow-accent: 0 0 15px rgba(6, 182, 212, 0.3);
+}
